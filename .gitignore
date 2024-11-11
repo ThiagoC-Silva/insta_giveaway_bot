@@ -1,0 +1,26 @@
+# Ignorar arquivos gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos de ambiente virtual
+venv/
+.env/
+
+# Ignorar arquivos temporários
+*.tmp
+*.log
+*.bak
+*.swp
+tempCodeRunnerFile.py
+
+# Ignorar arquivos JSON que não devem ser versionados
+list_followers.json
+
+# Ignorar arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar configurações específicas do IDE
+.vscode/
+.idea/
